@@ -1,0 +1,33 @@
+<style>
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        background-color: #333;
+        padding: 1rem;
+         
+        & .logo {
+            color: #fff;
+            
+        }
+
+        & .menu {
+            display: flex;
+            list-style: none;
+            & li {
+                margin: 0 2rem;
+
+                & a {
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+</style>
+<nav>
+    <div class="logo">
+    <h3><a routerLink="/home">AngularSite</a></h3>
+    </div>
+</nav>
+<router-outlet></router-outlet>

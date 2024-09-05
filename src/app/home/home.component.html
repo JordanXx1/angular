@@ -1,0 +1,37 @@
+<style>
+    button{
+        color-interpolation-filters: auto;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        margin: 0;
+        background-color: #f8f9fa;
+    }
+    .container {
+        text-align: center;
+    }
+</style>
+
+<div class="container ">
+        <h1>Welcome to the examination center for applicants.</h1>
+        <p>“You can’t stop the future. You can’t rewind the past.The only way to learn the secret s to press play.”</p>
+        <br>
+        <label class="badge badge-secondary" style="color: black;">"Candidate Name:"
+            <input type="text" placeholder="Enter your ID here." style="padding-left: 10px;">
+        </label><br><br>
+        <button type="button" class="btn btn-primary" [routerLink]="['/developer']">
+            Developer <span class="badge badge-light">>></span>
+        </button><br><br>
+        <button type="button" class="btn btn-primary" [routerLink]="['/tester']">
+            Tester <span class="badge badge-light">>></span>
+        </button><br><br>
+        <p><b>Download Programmer</b></p>
+        <p>Exam JS TDD (Junior Developer):Exam JS TDD</p><br>
+        <p><b>Download</b></p>
+        <p>ClosePackage Lab (Resource for Data Sci):Excel Test Exam I(Close Job)</p>
+         <p>Test Website Lab (Resource for Data Sci):Excel Test Exam II (Test_Website Job)</p>
+         <p><b>Exam question (Full Stack Developer):</b></p>
+    </div>
